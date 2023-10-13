@@ -1,0 +1,64 @@
+.cabecalhoInicio{
+    width: 100%;
+    height: 50px;
+    background-color: #237834;
+    display: flex;
+    justify-content: left;  
+}
+.brasileirao{
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    padding: 10px 10px; 
+}
+.cabecalho{
+    width: 100%;
+    height: 50px;
+    background-color: #237834;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.cabecalho a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    padding: 10px 10px; 
+}
+.temporada{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    justify-content: left;
+    border-bottom: 1px solid rgb(131, 130, 130);
+}
+#temporada_ano{
+    color: rgb(20, 109, 160);
+    font-family: Arial;
+    font-weight: bold;
+    border-style: none;
+}
+.tabela{
+    text-align: center;
+    font-family: Arial;
+    width: 100%;
+} 
+.rodape{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid rgb(131, 130, 130);
+    display: inline-block;
+}
+.tituloRodape{
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+}
+.infoRodape{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    font-family: Arial;
+    color: black;
+}
